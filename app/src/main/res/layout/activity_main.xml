@@ -8,19 +8,20 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:id="@+id/btn_inscri"
+        android:layout_width="269dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="600dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="60dp"
-
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="Button" />
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="#F4BC6D"
+        android:fontFamily="@font/metropolis_medium"
+        android:text="S'inscrire maintenant" />
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/slideViewPager"
