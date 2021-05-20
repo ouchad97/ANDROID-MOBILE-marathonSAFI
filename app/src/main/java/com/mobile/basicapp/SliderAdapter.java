@@ -27,16 +27,16 @@ public class SliderAdapter extends PagerAdapter {
     };
 
     public String[] slide_headings = {
-            "SAFI",
-            "ASFI",
-            "ZAFFIM"
+            "La ville de Safi",
+            "Marathon de charité",
+            "Rejoignez-nous"
     };
 
 
     public String[] slider_desc = {
-            "Lorem ipsum, hekkkkk",
-            "Lorem ipsum, rrrrrrr",
-            "Lorem ipsum, ppppppp"
+            "Organise un marathone de charité",
+            "Est une épreuve sportive individuelle de course à pied",
+            "Introduire vos informations personnelles dans un formulaire"
     };
 
     @Override

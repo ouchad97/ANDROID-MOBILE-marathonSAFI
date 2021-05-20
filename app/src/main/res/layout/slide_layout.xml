@@ -19,16 +19,17 @@
 
     <TextView
         android:id="@+id/slide_desc"
-        android:layout_width="wrap_content"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="73dp"
         android:layout_marginEnd="72dp"
-        android:layout_marginBottom="175dp"
+        android:layout_marginBottom="156dp"
         android:fontFamily="@font/metropolis_medium"
-        android:text="Organise un marathone de charité"
-        android:textSize="15sp" />
+        android:gravity="center"
+        android:text="Introduire vos informations personnelles dans un formulaire"
+        android:textSize="14sp" />
 
     <TextView
         android:id="@+id/slide_heading"
@@ -40,5 +41,7 @@
         android:fontFamily="@font/metropolis_medium"
         android:text="La ville de Safi "
         android:textColor="@color/black"
-        android:textSize="26sp" />
+        android:textSize="26sp"
+        android:gravity="center"
+        />
 </RelativeLayout>
