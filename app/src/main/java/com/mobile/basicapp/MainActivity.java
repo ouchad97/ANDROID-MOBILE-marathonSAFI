@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openForm_inscri(){
-        Intent intent = new Intent (this, form_Activity2.class);
+        Intent intent = new Intent (this, Form_Activity2.class);
         startActivity(intent);
     }
 
