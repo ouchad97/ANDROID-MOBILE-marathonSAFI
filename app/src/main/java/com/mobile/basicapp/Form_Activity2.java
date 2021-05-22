@@ -8,14 +8,19 @@ import android.widget.EditText;
 
 public class Form_Activity2 extends AppCompatActivity {
 
-    EditText txtNom = (EditText) findViewById(R.id.txtNom);
-    EditText txtEmail = (EditText) findViewById(R.id.txtEmail);
-    EditText txtTel = (EditText) findViewById(R.id.txtTel);
-    Button btnValider = (Button) findViewById(R.id.btnValider);
+    private EditText txtNom;
+    private EditText txtEmail;
+    private EditText txtTel;
+    private Button btnValider;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form2);
+
+        txtNom = (EditText) findViewById(R.id.txtNom);
+        txtEmail = (EditText) findViewById(R.id.txtEmail);
+        txtTel = (EditText) findViewById(R.id.txtTel);
+        btnValider = (Button) findViewById(R.id.btnValider);
     }
 }
