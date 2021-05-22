@@ -3,8 +3,11 @@ package com.mobile.basicapp;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Html;
+import android.view.View;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -12,10 +15,10 @@ public class MainActivity extends AppCompatActivity {
 
     private ViewPager mSlideViewPager;
     private LinearLayout mDotLayout;
-
     private TextView[] mDots;
-
     private SliderAdapter sliderAdapter;
+    private Button btn_inscri;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +33,20 @@ public class MainActivity extends AppCompatActivity {
 
         mSlideViewPager.addOnPageChangeListener(viewListener);
 
+        btn_inscri = (Button) findViewById(R.id.btn_inscri);
+
+        btn_inscri.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openForm_inscri();
+            }
+        });
+
+    }
+
+    public void openForm_inscri(){
+        Intent intent = new Intent (this, form_Activity2.class);
+        startActivity(intent);
     }
 
     public void addDotsIndicator( int position){
